@@ -1,0 +1,65 @@
+/*Cosas generales ----------------------------------------------------------------------------*/
+*{
+	padding: 0;
+	margin: 0;
+}
+h1{
+	text-align: center;
+	margin: 5px 0;
+}
+/*Encabezado y nav ------------------------------------------------------------------------------*/
+/*Ajustamos el tamaño de todo el header con imagene y botones*/
+.header{
+	background-color: blue;
+	height: auto;
+	width: 100%;
+}
+/*Organizamos todo lo de nav en fila*/
+.nav{
+	display: flex;
+	justify-content: space-between;
+}
+/*Tamaño del logo y espacio*/
+.logo{
+	width: 100px;
+	padding: 10px;
+	}
+/*Poner botones en fila*/
+.nav-menu{
+	display: flex;
+	flex-wrap: wrap;
+	margin-right: 40px;
+	list-style: none;
+	}
+/*Asignamos propiedades a los botones*/
+.nav-menu-item{
+	margin: 0 20px;
+	text-align: center;
+	width: 75px;
+	height: 25px;
+	padding: 10px;
+	background-color: lightgreen;
+	border-radius: 5px;
+	font-size: 20px;
+	text-decoration: none;
+	margin-top: 35px;
+}
+/*Quitar la linea del link*/
+.nav-menu-item a{
+	text-decoration: none;
+}
+/*Aplicamos estilo cuando el mouse esta en el boton*/
+.nav-menu-item:hover{
+	background-color: greenyellow;
+	border-radius: 15px;
+	cursor: pointer;
+}
+/*Footer ------------------------------------------------------------------------------------*/
+footer{
+	display: flex;
+	width: 100%;
+	height: 40px;
+	background-color: red;
+	margin-top: 25px;
+}
+
